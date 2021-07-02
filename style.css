@@ -1,0 +1,46 @@
+h1 {
+    color: rgb(14, 233, 160);
+    margin-left: 750px;
+}
+.header {
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    margin-right: 20px;
+    
+}
+.menu a{
+    margin-left: 10px;
+}
+a:link{
+    color:rgb(0, 26, 255);
+}
+a:visited{
+    color: rgb(0, 26, 255);
+}
+p,h2 {
+    text-align: center;
+}
+.grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.origami {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 500px;
+    background-color:#caffcc;
+    padding: 100px;
+    text-align: center;
+    opacity: 0.6;
+}
+.origami:hover{
+    transform: scale(1.05);
+    opacity: 1;
+}
+  
